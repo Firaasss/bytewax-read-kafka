@@ -21,3 +21,7 @@ run ``python3 kafka_tweets_consumer.py``
 Lots of imports.. don't need them all (in process of testing)
 Initialize the dataflow object, read directly from the kafka topic that was created when sending messages in kafka_tweets_producer.py.
 Output to terminal using the BW output connector StdOutSink()
+
+run ``python3 -m bytewax.run twitter_bytewax``
+
+To watch bytewax digest the data in action, run the producer in a split screen.
