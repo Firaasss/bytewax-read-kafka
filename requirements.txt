@@ -1,0 +1,4 @@
+bytewax==0.18.2
+kafka==1.3.5
+kafka_python==2.0.2
+rich==13.7.1
